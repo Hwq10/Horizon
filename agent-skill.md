@@ -74,7 +74,16 @@ its available skills. For a first-time setup, say:
 
 The assistant checks for an existing installation, prepares missing prerequisites,
 and helps configure the model and sources. Importing the skill alone does not run
-an installer. You still supply credentials for Horizon's configured services.
+an installer.
+
+For model setup, the assistant preserves existing Horizon settings and prefers
+reusing an available provider API key before asking for new credentials. The
+provider, model, API endpoint, and key environment variable must match. A key
+stored privately by the host agent needs to be supplied to Horizon's process;
+an OAuth or subscription login is not a drop-in API key. New model settings are
+checked with a minimal JSON completion, since configuration validation alone
+does not verify connectivity. Scheduled jobs and containers also need access
+to the credentials in their own runtime environment.
 
 If Horizon is already installed, tell the assistant where the checkout is, or set
 `HORIZON_PATH`. MCP is optional. A sandboxed agent needs access to the checkout
