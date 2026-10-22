@@ -239,6 +239,20 @@
         "enabled": true,
         "category": "finance",
         "profile": "finance-news"
+      },
+      {
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/rss.xml",
+        "enabled": true,
+        "category": "ai-ml",
+        "profile": "tech-news"
+      },
+      {
+        "name": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "ai-ml",
+        "profile": "tech-news"
       }
     ],
     "reddit": {
