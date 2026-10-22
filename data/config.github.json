@@ -218,6 +218,27 @@
         "enabled": true,
         "category": "value-investing",
         "profile": "finance-news"
+      },
+      {
+        "name": "金十数据·财经快讯",
+        "url": "https://rsshub.rssforever.com/jin10",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "财联社·有声早报",
+        "url": "https://rsshub.rssforever.com/cls/subject/1151",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "东方财富·策略研报",
+        "url": "https://rsshub.rssforever.com/eastmoney/report/strategyreport",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
       }
     ],
     "reddit": {
