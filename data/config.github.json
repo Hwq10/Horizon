@@ -183,6 +183,34 @@
         "enabled": true,
         "category": "finance",
         "profile": "finance-news"
+      },
+      {
+        "name": "华尔街见闻·要闻",
+        "url": "https://rsshub.rssforever.com/wallstreetcn/live/global",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "华尔街见闻·A股",
+        "url": "https://rsshub.rssforever.com/wallstreetcn/live/a-stock",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "华尔街见闻·港股",
+        "url": "https://rsshub.rssforever.com/wallstreetcn/live/hk-stock",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "华尔街见闻·美股",
+        "url": "https://rsshub.rssforever.com/wallstreetcn/live/us-stock",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
       }
     ],
     "reddit": {
