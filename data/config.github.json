@@ -26,7 +26,7 @@
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 7,
+        "threshold": 6,
         "topic_dedup": true
       }
     }
@@ -148,13 +148,6 @@
         "profile": "finance-news"
       },
       {
-        "name": "Reuters Business",
-        "url": "https://feeds.reuters.com/reuters/businessNews",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      },
-      {
         "name": "华尔街见闻·要闻",
         "url": "https://rsshub.rssforever.com/wallstreetcn/live/global",
         "enabled": true,
@@ -190,13 +183,6 @@
         "profile": "finance-news"
       },
       {
-        "name": "金十数据·财经快讯",
-        "url": "https://rsshub.rssforever.com/jin10",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      },
-      {
         "name": "财联社·有声早报",
         "url": "https://rsshub.rssforever.com/cls/subject/1151",
         "enabled": true,
@@ -223,6 +209,14 @@
         "enabled": true,
         "category": "ai-ml",
         "profile": "tech-news"
+      },
+      {
+        "name": "第一财经",
+        "url": "https://rsshub.rssforever.com/yicai/news",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news",
+        "content_extractor": "trafilatura"
       }
     ],
     "reddit": {
