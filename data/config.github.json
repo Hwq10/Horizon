@@ -270,7 +270,7 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 20,
+    "max_items": 12,
     "profile_order": [
       "finance-news",
       "tech-news",
@@ -280,14 +280,14 @@
     "category_groups": {
       "finance": {
         "name": "Finance",
-        "limit": 12,
+        "limit": 8,
         "categories": [
           "finance-news"
         ]
       },
       "tech": {
         "name": "AI / Tech",
-        "limit": 8,
+        "limit": 4,
         "categories": [
           "tech-news",
           "tech-blog"
