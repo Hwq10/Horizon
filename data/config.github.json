@@ -148,10 +148,45 @@
         "enabled": true,
         "category": "tech-zh",
         "profile": "tech-news"
+      },
+      {
+        "name": "MarketWatch Top Stories",
+        "url": "https://feeds.marketwatch.com/marketwatch/topstories",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://feeds.bloomberg.com/markets/news.rss",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "Reuters Business",
+        "url": "https://feeds.reuters.com/reuters/businessNews",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "FT Markets",
+        "url": "https://www.ft.com/rss/markets",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
+      },
+      {
+        "name": "WSJ Markets",
+        "url": "https://feeds.wsj.com/wsj/xml/rss/3_7014.xml",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news"
       }
     ],
     "reddit": {
-      "enabled": true,
+      "enabled": false,
       "subreddits": [
         {
           "subreddit": "MachineLearning",
@@ -196,13 +231,30 @@
   "digest": {
     "max_items": 20,
     "profile_order": [
+      "finance-news",
       "tech-news",
-      "tech-blog",
-      "finance-news"
+      "tech-blog"
     ],
-    "category_groups": {},
+    "group_by": "profile",
+    "category_groups": {
+      "finance": {
+        "name": "Finance",
+        "limit": 12,
+        "categories": [
+          "finance-news"
+        ]
+      },
+      "tech": {
+        "name": "AI / Tech",
+        "limit": 8,
+        "categories": [
+          "tech-news",
+          "tech-blog"
+        ]
+      }
+    },
     "default_group": "other",
-    "default_group_limit": null
+    "default_group_limit": 0
   },
   "webhook": {
     "enabled": false,
