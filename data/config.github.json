@@ -211,6 +211,13 @@
         "enabled": true,
         "category": "finance",
         "profile": "finance-news"
+      },
+      {
+        "name": "Howard Marks (Oaktree 备忘录)",
+        "url": "https://rss.art19.com/the-memo-by-howard-marks",
+        "enabled": true,
+        "category": "value-investing",
+        "profile": "finance-news"
       }
     ],
     "reddit": {
