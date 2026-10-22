@@ -120,6 +120,34 @@
         "enabled": false,
         "category": "linux-kernel",
         "profile": "tech-news"
+      },
+      {
+        "name": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "enabled": true,
+        "category": "ai-news-zh",
+        "profile": "tech-news"
+      },
+      {
+        "name": "极客公园",
+        "url": "https://www.geekpark.net/rss",
+        "enabled": true,
+        "category": "tech-zh",
+        "profile": "tech-news"
+      },
+      {
+        "name": "少数派",
+        "url": "https://sspai.com/feed",
+        "enabled": true,
+        "category": "tech-zh",
+        "profile": "tech-news"
+      },
+      {
+        "name": "阮一峰的网络日志",
+        "url": "https://www.ruanyifeng.com/blog/atom.xml",
+        "enabled": true,
+        "category": "tech-zh",
+        "profile": "tech-news"
       }
     ],
     "reddit": {
