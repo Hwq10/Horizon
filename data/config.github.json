@@ -93,14 +93,6 @@
         "content_extractor": "trafilatura"
       },
       {
-        "name": "CNBC Finance",
-        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news",
-        "content_extractor": "trafilatura"
-      },
-      {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
@@ -150,13 +142,6 @@
         "profile": "tech-news"
       },
       {
-        "name": "MarketWatch Top Stories",
-        "url": "https://feeds.marketwatch.com/marketwatch/topstories",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      },
-      {
         "name": "Bloomberg Markets",
         "url": "https://feeds.bloomberg.com/markets/news.rss",
         "enabled": true,
@@ -166,20 +151,6 @@
       {
         "name": "Reuters Business",
         "url": "https://feeds.reuters.com/reuters/businessNews",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      },
-      {
-        "name": "FT Markets",
-        "url": "https://www.ft.com/rss/markets",
-        "enabled": true,
-        "category": "finance",
-        "profile": "finance-news"
-      },
-      {
-        "name": "WSJ Markets",
-        "url": "https://feeds.wsj.com/wsj/xml/rss/3_7014.xml",
         "enabled": true,
         "category": "finance",
         "profile": "finance-news"
