@@ -17,8 +17,11 @@
       { "id": "summary", "type": "section", "tools": [], "primary": true },
       { "id": "background", "type": "section", "tools": ["web_search"] },
       { "id": "logic", "type": "section", "tools": [] },
+      { "id": "consensus", "type": "section", "tools": ["web_search"] },
+      { "id": "cycle", "type": "section", "tools": [], "optional": true },
       { "id": "insight", "type": "section", "tools": [] },
       { "id": "outlook", "type": "section", "tools": [], "optional": true },
+      { "id": "risk", "type": "section", "tools": [] },
       { "id": "impact", "type": "section", "tools": ["web_search"], "optional": true }
     ]
   }
